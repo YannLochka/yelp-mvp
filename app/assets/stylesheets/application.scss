@@ -1,0 +1,54 @@
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap/scss/bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Your CSS partials
+@import "components/index";
+@import "pages/index";
+
+h1 {
+    color: #22223b;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+body {
+  background-color: #f2e9e4;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+  background-color: #c9ada7;
+  justify-content: center;
+}
+
+div {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  align-items: center;
+}
+
+.resto {
+  background-color: #9a8c98;
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+  padding: 20;
+  text-align: center;
+}

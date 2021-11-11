@@ -1,0 +1,16 @@
+<div class="container">
+
+<h1>All restaurants 🍴</h1>
+
+<ul>
+  <% @restaurants.each do |restaurant| %>
+    <li class="resto">
+      <%= link_to(restaurant.name, restaurant_path(restaurant)) %>
+    </li>
+  <% end %>
+</ul>
+
+<br>
+<%= link_to("Create a new restaurant 🪄", new_restaurant_path) %>
+
+</div>
